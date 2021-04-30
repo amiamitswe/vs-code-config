@@ -1,0 +1,37 @@
+Formatter
+1. Prettier - Code formatter - Esben Petersen
+2. ES Lint - Dirk Baeumer
+
+Auto Effect 
+1. Auto Rename Tag - Jun Han
+2. Path Autocomplete - Mihai Vilcu
+3. Path Intellisense - Christian Kohler
+
+Live
+1. Live Server - ritwik dey
+2. Live Share - Microsoft
+
+Icons
+1. vscode-icons - VSCode Icons Team
+
+Theme (any one)
+1. Andromeda - Eliver Lara (Best)
+2. Dracula Official - Dracula Theme
+3. Community Material Theme - Mattia Astorino
+
+Snippets
+1. ES7 React/Redux/GraphQL/React-Native snippets - dsznajder
+2. Emoji Snippets - Devzstudio
+
+Console
+1. Turbo Console Log - ChakrounAnas
+
+Bracket Pair
+1. Bracket Pair Colorizer - CoenraadS
+
+Spell check
+1. Code Spell Checker - Street Side Software
+
+Color
+1. Color Highlight - Sergii Naumov
+

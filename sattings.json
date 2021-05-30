@@ -78,7 +78,12 @@
     "terminal.ansiMagenta": "#8F4673",
     "terminal.ansiRed": "#FB543F",
     "terminal.ansiWhite": "#A89984",
-    "terminal.ansiYellow": "#FAC03B"
+    "terminal.ansiYellow": "#FAC03B",
+    // active file bg color
+    "list.inactiveSelectionForeground": "#1dd6c7",
+    "list.inactiveSelectionBackground": "#4b5049",
+    "list.inactiveFocusOutline": "#1dd6c7",
   },
   "editor.tabSize": 2,
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
 }

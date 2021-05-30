@@ -86,4 +86,14 @@
   },
   "editor.tabSize": 2,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "cSpell.userWords": [
+    "minmax"
+  ],
+  "editor.tabCompletion": "on",
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "razor": "html",
+    "plaintext": "pug"
+  }
 }

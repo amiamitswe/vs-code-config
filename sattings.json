@@ -3,8 +3,8 @@
   "editor.fontSize": 16,
   "editor.fontFamily": "Fira Code, Operator Mono",
   "editor.fontLigatures": true,
+  // // text wrap
   "editor.wordWrap": "on",
-  "editor.minimap.enabled": false,
   "editor.tokenColorCustomizations": {
     "textMateRules": [
       {
@@ -15,6 +15,9 @@
       }
     ]
   },
+  // // minimap 
+  "editor.minimap.enabled": true,
+  "editor.minimap.side": "right",
   // // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
@@ -83,6 +86,15 @@
     "list.inactiveSelectionForeground": "#1dd6c7",
     "list.inactiveSelectionBackground": "#4b5049",
     "list.inactiveFocusOutline": "#1dd6c7",
+    // // active tab color
+    "tab.activeBorder": "#ff0000",
+    "tab.activeBackground": "#4b5049",
+    // "tab.inactiveBackground": "#f7f7f7",
+    "tab.unfocusedActiveBorder": "#000000",
+    "tab.inactiveForeground": "#28c5da",
+    // // sidebar style
+    "sideBar.foreground": "#818181",
+    "list.hoverForeground": "#ffffff",
   },
   "editor.tabSize": 2,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
@@ -95,5 +107,5 @@
     "javascript": "javascriptreact",
     "razor": "html",
     "plaintext": "pug"
-  }
+  },
 }

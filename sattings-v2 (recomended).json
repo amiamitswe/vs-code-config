@@ -1,6 +1,6 @@
 {
   // // editor
-  "editor.fontSize": 16,
+  "editor.fontSize": 14,
   "editor.fontFamily": "Fira Code, Operator Mono",
   "editor.fontLigatures": true,
   // // text wrap
@@ -15,41 +15,33 @@
       }
     ]
   },
-  // // minimap 
+  // // minimap
   "editor.minimap.enabled": true,
   "editor.minimap.side": "right",
   // // config related to code formatting
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  // "[javascript]": {
-  //   "editor.formatOnSave": false,
-  //   "editor.defaultFormatter": null
-  // },
-  // "[javascriptreact]": {
-  //   "editor.formatOnSave": false,
-  //   "editor.defaultFormatter": null
-  // },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
   "[javascript]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
   },
   "[javascriptreact]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
   },
+
+  "javascript.validate.enable": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
-    "source.fixAll.tslint": true,
     "source.organizeImports": false
   },
   "eslint.alwaysShowStatus": true,
-  // "prettier.disableLanguages": [
-  //   "javascript",
-  //   "javascriptreact"
-  // ],
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "razor": "html",
+    "plaintext": "pug"
+  },
   // // cursor
   "editor.cursorSmoothCaretAnimation": true,
   "editor.cursorBlinking": "expand",
@@ -87,25 +79,20 @@
     "list.inactiveSelectionBackground": "#4b5049",
     "list.inactiveFocusOutline": "#1dd6c7",
     // // active tab color
-    "tab.activeBorder": "#ff0000",
+    "tab.activeBorder": "#1dd6c7",
+    "tab.activeBorderTop": "#1dd6c7",
     "tab.activeBackground": "#4b5049",
     // "tab.inactiveBackground": "#f7f7f7",
     "tab.unfocusedActiveBorder": "#000000",
     "tab.inactiveForeground": "#28c5da",
     // // sidebar style
     "sideBar.foreground": "#818181",
-    "list.hoverForeground": "#ffffff",
+    "list.hoverForeground": "#ffffff"
   },
   "editor.tabSize": 2,
   "terminal.integrated.defaultProfile.windows": "Git Bash",
-  "cSpell.userWords": [
-    "minmax"
-  ],
+  "cSpell.userWords": ["minmax"],
   "editor.tabCompletion": "on",
-  "emmet.triggerExpansionOnTab": true,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact",
-    "razor": "html",
-    "plaintext": "pug"
-  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true
 }

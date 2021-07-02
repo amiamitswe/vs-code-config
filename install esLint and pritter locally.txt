@@ -1,0 +1,23 @@
+//install yarn
+npm install -g yarn
+
+
+// for node js
+yarn add -D eslint prettier
+npx install-peerdeps --dev eslint-config-airbnb-base
+yarn add -D eslint-config-prettier eslint-plugin-prettier
+
+
+
+// for react js
+yarn add -D prettier
+yarn add -D babel-eslint
+npx install-peerdeps --dev eslint-config-airbnb
+yarn add -D eslint-config-prettier eslint-plugin-prettier
+
+or---->
+
+>>>> add this line inside script section
+scripts: {
+    "lint": "yarn add -D prettier && yarn add -D babel-eslint && npx install-peerdeps --dev eslint-config-airbnb && yarn add -D eslint-config-prettier eslint-plugin-prettier"
+}

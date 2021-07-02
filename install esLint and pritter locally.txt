@@ -2,7 +2,7 @@
 npm install -g yarn
 
 //create this file in root file, not in src file
-.eslintrc.json
+.eslintrc
 
 // for node js
 yarn add -D eslint prettier

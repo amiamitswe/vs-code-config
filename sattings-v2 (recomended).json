@@ -2,7 +2,8 @@
   // // editor
   "editor.fontSize": 14,
   "editor.fontFamily": "Fira Code, Operator Mono",
-  "editor.fontLigatures": true,
+    // // select text will change space width if true
+  "editor.fontLigatures": false,
   // // text wrap
   "editor.wordWrap": "on",
   "editor.tokenColorCustomizations": {

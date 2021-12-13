@@ -2,6 +2,7 @@
   // // editor
   "editor.fontSize": 14,
   "editor.fontFamily": "Fira Code, Operator Mono",
+  // // select text will change space width if true and if Fira Code is not available
   "editor.fontLigatures": true,
   // // text wrap
   "editor.wordWrap": "on",

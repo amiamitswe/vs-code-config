@@ -1,0 +1,121 @@
+{
+  // // editor
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Fira Code, Operator Mono",
+  
+  "editor.fontLigatures": true,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  // // minimap
+  "editor.minimap.enabled": true,
+  "editor.minimap.side": "right",
+  // // config related to code formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  // "[jsonc]": {
+  //   "editor.defaultFormatter": "vscode.json-language-features"
+  // },
+  // "[javascript]": {
+  //   "editor.formatOnSave": true,
+  //   "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  // "[javascriptreact]": {
+  //   "editor.formatOnSave": true,
+  //   "editor.defaultFormatter": "vscode.typescript-language-features"
+  // },
+  "javascript.validate.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": false
+  },
+  "eslint.alwaysShowStatus": true,
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact",
+    "razor": "html",
+    "plaintext": "pug"
+  },
+  // "prettier.disableLanguages": [
+  //   "javascript",
+  //   "javascriptreact"
+  // ],
+  // // cursor
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorBlinking": "expand",
+  // // workbench
+  "workbench.colorTheme": "Default Dark+",
+  "workbench.iconTheme": "vscode-icons",
+  // //terminal
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontFamily": "Fira Code, Operator Mono",
+  // terminal customization
+  "workbench.colorCustomizations": {
+    "terminal.background": "#1D2021",
+    "terminal.foreground": "#A89984",
+    "terminalCursor.background": "#A89984",
+    "terminalCursor.foreground": "#A89984",
+    "terminal.ansiBlack": "#1D2021",
+    "terminal.ansiBlue": "#0D6678",
+    "terminal.ansiBrightBlack": "#665C54",
+    "terminal.ansiBrightBlue": "#0D6678",
+    "terminal.ansiBrightCyan": "#8BA59B",
+    "terminal.ansiBrightGreen": "#95C085",
+    "terminal.ansiBrightMagenta": "#8F4673",
+    "terminal.ansiBrightRed": "#FB543F",
+    "terminal.ansiBrightWhite": "#FDF4C1",
+    "terminal.ansiBrightYellow": "#FAC03B",
+    "terminal.ansiCyan": "#8BA59B",
+    "terminal.ansiGreen": "#95C085",
+    "terminal.ansiMagenta": "#8F4673",
+    "terminal.ansiRed": "#FB543F",
+    "terminal.ansiWhite": "#A89984",
+    "terminal.ansiYellow": "#FAC03B",
+    // active file bg color
+    "list.inactiveSelectionForeground": "#1dd6c7",
+    "list.inactiveSelectionBackground": "#4b5049",
+    "list.inactiveFocusOutline": "#1dd6c7",
+    // // active tab color
+    "tab.activeBorder": "#1dd6c7",
+    "tab.activeBorderTop": "#1dd6c7",
+    "tab.activeBackground": "#4b5049",
+    // "tab.inactiveBackground": "#f7f7f7",
+    "tab.unfocusedActiveBorder": "#000000",
+    "tab.inactiveForeground": "#28c5da",
+    // // sidebar style
+    "sideBar.foreground": "#818181",
+    "list.hoverForeground": "#ffffff"
+  },
+  "editor.tabSize": 2,
+  "cSpell.userWords": [
+    "minmax",
+    "qcoom"
+  ],
+  "editor.tabCompletion": "on",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "git.autofetch": true,
+  "javascript.format.semicolons": "insert",
+  "typescript.format.semicolons": "insert",
+  "[typescript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+},
+  "editor.wordWrapColumn": 120,
+  "editor.wordWrap": "wordWrapColumn",
+  "editor.accessibilitySupport": "off"
+}
